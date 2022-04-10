@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.mainContainer{
+  display:inline;
+  align-items:center;
+  background-color:red;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.form{
+  display:flex;
+}
+p{font-size:30px;
+text-shadow:5px 12px 4px orange;
+border-bottom:10px solid orange;}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  font-size: large;
+  font-weight:bold;
+
+  font-family: 'Bradley HAND ITC',monospace;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header{
+  margin:15px;
+  letter-spacing:.3in;
+  padding:10px;
+  font-weight:bold;
+  color:black;
+  font-size: 24px;
+  background-color: crimson;
+  border-radius: 50px;
+  box-shadow: 5px 5px 40px 2px gold;
+}
+form{
+  display:grid;
+}
+
+.messageIndex{
+  color:red;
+  font-family:monospace;
+  margin:3px;
+  padding:10px;
+  border: 10px ridge white;
+  border-radius:16px;
+}
+
+.address{
+  border:1px solid black;
+  margin:3px;
+  font-weight:bold;
+}
+
+
+.time{
+  font-weight:bold;
+  margin:3px;
+  border:1px solid black;
+}
+
+.message{
+  font-weight:bold;
+  margin:3px;
+  border:1px solid black;
+}
+
+label{
+  color:azure;
+  background: #282c34;
+}
+
+.formItem{
+  font-weight:bold;
+  font-family: monospace;
+  line-height:.5in;
+  margin:3px;
+  border:1px solid black;
+}
+
+
+textarea{
+  height:75px;
+  background-color:azure;
+  color:crimson;
+  width:300px;
+}
+
+
+
+  .waveButton{
+    margin:5px;
+  
+  }
+  /* CSS */
+  button {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+  }
+  
+
+
